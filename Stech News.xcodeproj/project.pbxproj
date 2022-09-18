@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF4018A28D36073004E44AA /* Stech_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4018928D36073004E44AA /* Stech_NewsApp.swift */; };
+		1AF4018C28D36073004E44AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4018B28D36073004E44AA /* ContentView.swift */; };
+		1AF4018E28D36075004E44AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF4018D28D36075004E44AA /* Assets.xcassets */; };
+		1AF4019128D36075004E44AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF4019028D36075004E44AA /* Preview Assets.xcassets */; };
+		1AF4019928D36B31004E44AA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4019828D36B31004E44AA /* NetworkManager.swift */; };
+		1AF4019B28D36CE1004E44AA /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4019A28D36CE1004E44AA /* PostData.swift */; };
+		1AF401A028D38E90004E44AA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4019F28D38E90004E44AA /* DetailView.swift */; };
+		1AF401A228D3966F004E44AA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF401A128D3966F004E44AA /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AF4018628D36073004E44AA /* Stech News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stech News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF4018928D36073004E44AA /* Stech_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stech_NewsApp.swift; sourceTree = "<group>"; };
+		1AF4018B28D36073004E44AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AF4018D28D36075004E44AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AF4019028D36075004E44AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AF4019828D36B31004E44AA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1AF4019A28D36CE1004E44AA /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		1AF4019F28D38E90004E44AA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1AF401A128D3966F004E44AA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF4018328D36073004E44AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF4017D28D36073004E44AA = {
+			isa = PBXGroup;
+			children = (
+				1AF4018828D36073004E44AA /* Stech News */,
+				1AF4018728D36073004E44AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF4018728D36073004E44AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4018628D36073004E44AA /* Stech News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF4018828D36073004E44AA /* Stech News */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4018928D36073004E44AA /* Stech_NewsApp.swift */,
+				1AF4019C28D38E5C004E44AA /* Views */,
+				1AF4019728D36B17004E44AA /* Model */,
+				1AF4018D28D36075004E44AA /* Assets.xcassets */,
+				1AF4018F28D36075004E44AA /* Preview Content */,
+			);
+			path = "Stech News";
+			sourceTree = "<group>";
+		};
+		1AF4018F28D36075004E44AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4019028D36075004E44AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AF4019728D36B17004E44AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4019828D36B31004E44AA /* NetworkManager.swift */,
+				1AF4019A28D36CE1004E44AA /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AF4019C28D38E5C004E44AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4018B28D36073004E44AA /* ContentView.swift */,
+				1AF4019F28D38E90004E44AA /* DetailView.swift */,
+				1AF401A128D3966F004E44AA /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF4018528D36073004E44AA /* Stech News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF4019428D36075004E44AA /* Build configuration list for PBXNativeTarget "Stech News" */;
+			buildPhases = (
+				1AF4018228D36073004E44AA /* Sources */,
+				1AF4018328D36073004E44AA /* Frameworks */,
+				1AF4018428D36073004E44AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stech News";
+			productName = "Stech News";
+			productReference = 1AF4018628D36073004E44AA /* Stech News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF4017E28D36073004E44AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1AF4018528D36073004E44AA = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1AF4018128D36073004E44AA /* Build configuration list for PBXProject "Stech News" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF4017D28D36073004E44AA;
+			productRefGroup = 1AF4018728D36073004E44AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF4018528D36073004E44AA /* Stech News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF4018428D36073004E44AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF4019128D36075004E44AA /* Preview Assets.xcassets in Resources */,
+				1AF4018E28D36075004E44AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF4018228D36073004E44AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF4019928D36B31004E44AA /* NetworkManager.swift in Sources */,
+				1AF4019B28D36CE1004E44AA /* PostData.swift in Sources */,
+				1AF4018C28D36073004E44AA /* ContentView.swift in Sources */,
+				1AF401A228D3966F004E44AA /* WebView.swift in Sources */,
+				1AF401A028D38E90004E44AA /* DetailView.swift in Sources */,
+				1AF4018A28D36073004E44AA /* Stech_NewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AF4019228D36075004E44AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AF4019328D36075004E44AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF4019528D36075004E44AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stech News/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L566L7593;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suhail.Stech-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AF4019628D36075004E44AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stech News/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L566L7593;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suhail.Stech-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF4018128D36073004E44AA /* Build configuration list for PBXProject "Stech News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF4019228D36075004E44AA /* Debug */,
+				1AF4019328D36075004E44AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF4019428D36075004E44AA /* Build configuration list for PBXNativeTarget "Stech News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF4019528D36075004E44AA /* Debug */,
+				1AF4019628D36075004E44AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AF4017E28D36073004E44AA /* Project object */;
+}
